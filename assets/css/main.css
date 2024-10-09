@@ -38,7 +38,19 @@
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
-
+html {
+  scroll-behavior: smooth;
+}
+ ::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#ae1b58;
+}
 .light-background {
   --background-color: #1a1a1a;
   --surface-color: #343434;
